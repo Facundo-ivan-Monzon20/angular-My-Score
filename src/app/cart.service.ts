@@ -6,7 +6,7 @@ export class CartService {
 
   constructor() {}
 
-  addToCart(product: any) {
+  addToCart(product) {
     this.items.push(product);
   }
 
