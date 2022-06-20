@@ -60,7 +60,8 @@ input {
   border-radius: 2px;
   padding: 8px;
   margin-bottom: 16px;
-  border: 1px solid #bdbdbd;
+  border: 1px solid black;
+  color: black;
 }
 
 label {
