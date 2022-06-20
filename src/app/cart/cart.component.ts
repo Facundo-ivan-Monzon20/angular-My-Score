@@ -31,6 +31,8 @@ export class CartComponent implements OnInit {
     this.checkoutForm.reset();
 
     console.warn('Your order has been submitted', customerData);
-    window.alert(customerData); 
+    window.alert(
+      'name: ' + customerData.name + ', address: ' + customerData.address
+    );
   }
 }
